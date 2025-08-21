@@ -11,7 +11,8 @@
     "start": "tinacms build && next start",
     "export": "npm run build && next export",
     "lint": "biome lint",
-    "dev:build": "next build"
+    "dev:build": "next build",
+    "noop": "echo 'No operation performed'"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
